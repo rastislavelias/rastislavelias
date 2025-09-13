@@ -1,5 +1,6 @@
 ## Hi there 👋
 
+[![roadmap.sh](https://roadmap.sh/card/tall/688e10b4087fc9883fd28b75?variant=dark&roadmaps=frontend)](https://roadmap.sh)
 <!--
 **rastislavelias/rastislavelias** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
