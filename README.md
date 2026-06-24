@@ -52,6 +52,8 @@ A React and TypeScript app that fetches country data and filters results by sear
 - Derived filtering
 - Component composition
 
+Live app: https://rastislavelias.github.io/country-explorer
+
 ### Task Manager
 
 A React and TypeScript task manager focused on state, filtering, and component structure.
@@ -61,6 +63,8 @@ A React and TypeScript task manager focused on state, filtering, and component s
 - State management
 - Derived filtered data
 - Local storage persistence
+
+Live app: https://rastislavelias.github.io/task-manager
 
 ## Links
 
