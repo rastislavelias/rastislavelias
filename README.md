@@ -17,17 +17,18 @@ I previously worked as a self-employed web developer delivering websites end to 
 
 ### Mini Resource Library
 
-A full-stack Next.js app for saving and managing private learning resources.
+An independently designed full-stack Next.js application for organising private learning resources with custom categories, reading statuses, notes, and ratings.
 
-- Next.js App Router
-- TypeScript
-- Clerk authentication
-- Prisma ORM
-- PostgreSQL
-- CRUD operations
-- Server-side validation
+- Designed a user-owned relational model for resources and reusable custom categories
+- Used Clerk user IDs to isolate private data without duplicating accounts in a local user table
+- Created Zod schemas for input validation, normalisation, and TypeScript form-type inference
+- Implemented server actions that validate input, authenticate the user, verify record ownership, perform Prisma mutations, and revalidate affected pages
+- Restricted category deletion while resources still reference it to prevent accidental data loss
+- Kept search, filtering, and pagination deliberately focused instead of introducing unnecessary tagging or full-text-search complexity
 
-Live app: https://resources.rastislavelias.com
+**Stack:** Next.js, React, TypeScript, Tailwind CSS, Clerk, Zod, Prisma, PostgreSQL
+
+[Live app](https://resources.rastislavelias.com) · [Source code](https://github.com/rastislavelias/mini-resource-library)
 
 ### AI Photo Description Tool
 
