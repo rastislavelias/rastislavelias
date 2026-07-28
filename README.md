@@ -31,16 +31,18 @@ Live app: https://resources.rastislavelias.com
 
 ### AI Photo Description Tool
 
-An AI-enhanced web app where users upload an image and receive an AI-generated description.
+An independently designed Next.js application that converts uploaded images into an AI-generated description and 3–6 relevant tags.
 
-- Next.js
-- TypeScript
-- File upload validation
-- API route integration
-- Loading and error states
-- AI response handling
+- Designed the complete client-to-server image-processing flow
+- Added browser-side validation and resizing to reduce unnecessary upload size
+- Implemented independent server validation of file type, size, request format, and image dimensions
+- Added content moderation before description generation
+- Required predictable AI responses using strict JSON Schema
+- Created typed error codes for validation, moderation, provider, and server failures
 
-Live app: https://ai-photo-description.vercel.app
+**Stack:** Next.js, React, TypeScript, Tailwind CSS, OpenAI API, JSON Schema, Canvas API
+
+[Live app](https://ai-photo-description.vercel.app) · [Source code](https://github.com/rastislavelias/ai-photo-description)
 
 ### Country Explorer
 
