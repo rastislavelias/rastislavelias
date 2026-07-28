@@ -1,19 +1,34 @@
 # Hi, I’m Rastislav Elias
 
-I’m a frontend-focused web developer working with React, Next.js, TypeScript, and Tailwind CSS.
+I’m a frontend-focused web developer building practical applications with Next.js, React, TypeScript, and Tailwind CSS.
 
-I previously worked as a self-employed web developer delivering websites end to end. I am now rebuilding my professional portfolio around modern React, Next.js, TypeScript, API routes, authentication, database-backed apps, and AI API integration.
+My current work includes a production client website and independently designed applications involving authentication, relational data, validation, server logic, external APIs, error handling, and deployment.
 
-## Current focus
+## Current Focus
 
-- React and TypeScript
-- Next.js App Router
-- Tailwind CSS
-- API routes and server-side validation
-- Prisma, PostgreSQL, and basic full-stack flow
-- Accessible, responsive UI
+- React, TypeScript, and component architecture
+- Next.js App Router and server actions
+- Authentication and record-level ownership
+- Zod validation and typed application boundaries
+- Prisma and PostgreSQL relational data
+- Accessible, responsive interfaces
+- External API and AI integration
 
-## Selected projects
+## Selected Projects
+
+### Olga Pietrzak — Client Website
+
+A production website built and delivered for a therapist, adapting a Tailwind Plus foundation to the client’s brand, content, and requirements.
+
+- Translated client requirements into a responsive Next.js website
+- Structured service content and MDX-based legal pages
+- Implemented server-action contact handling with Resend
+- Added metadata, sitemap, robots configuration, and SEO foundations
+- Managed the project through implementation and production deployment
+
+**Stack:** Next.js, React, TypeScript, Tailwind CSS, MDX, Server Actions, Resend
+
+[View website](https://olgapietrzak.pl)
 
 ### Mini Resource Library
 
@@ -21,10 +36,10 @@ An independently designed full-stack Next.js application for organising private 
 
 - Designed a user-owned relational model for resources and reusable custom categories
 - Used Clerk user IDs to isolate private data without duplicating accounts in a local user table
-- Created Zod schemas for input validation, normalisation, and TypeScript form-type inference
-- Implemented server actions that validate input, authenticate the user, verify record ownership, perform Prisma mutations, and revalidate affected pages
+- Created Zod schemas for input validation, normalisation, and TypeScript type inference
+- Implemented server actions that authenticate users, verify ownership, perform Prisma mutations, and revalidate affected pages
 - Restricted category deletion while resources still reference it to prevent accidental data loss
-- Kept search, filtering, and pagination deliberately focused instead of introducing unnecessary tagging or full-text-search complexity
+- Kept search, filtering, and pagination deliberately focused rather than introducing unnecessary complexity
 
 **Stack:** Next.js, React, TypeScript, Tailwind CSS, Clerk, Zod, Prisma, PostgreSQL
 
@@ -35,8 +50,8 @@ An independently designed full-stack Next.js application for organising private 
 An independently designed Next.js application that converts uploaded images into an AI-generated description and 3–6 relevant tags.
 
 - Designed the complete client-to-server image-processing flow
-- Added browser-side validation and resizing to reduce unnecessary upload size
-- Implemented independent server validation of file type, size, request format, and image dimensions
+- Added browser-side validation and resizing to reduce upload size
+- Implemented independent server validation of the request, file type, size, and image dimensions
 - Added content moderation before description generation
 - Required predictable AI responses using strict JSON Schema
 - Created typed error codes for validation, moderation, provider, and server failures
@@ -45,32 +60,8 @@ An independently designed Next.js application that converts uploaded images into
 
 [Live app](https://ai-photo-description.vercel.app) · [Source code](https://github.com/rastislavelias/ai-photo-description)
 
-### Country Explorer
-
-A React and TypeScript app that fetches country data and filters results by search and region.
-
-- React
-- TypeScript
-- API data fetching
-- Derived filtering
-- Component composition
-
-Live app: https://rastislavelias.github.io/country-explorer
-
-### Task Manager
-
-A React and TypeScript task manager focused on state, filtering, and component structure.
-
-- React
-- TypeScript
-- State management
-- Derived filtered data
-- Local storage persistence
-
-Live app: https://rastislavelias.github.io/task-manager
-
 ## Links
 
-- Portfolio: https://rastislavelias.com
-- LinkedIn: https://www.linkedin.com/in/rastislavelias
-- Email: contact@rastislavelias.com
+- [Portfolio](https://rastislavelias.com)
+- [LinkedIn](https://www.linkedin.com/in/rastislavelias)
+- [Email](mailto:contact@rastislavelias.com)
