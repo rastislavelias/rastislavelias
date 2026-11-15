@@ -1,67 +1,49 @@
-# Hi, I’m Rastislav Elias
+# Rastislav Elias
 
-I’m a frontend-focused web developer building practical applications with Next.js, React, TypeScript, and Tailwind CSS.
+**Web / Software Developer based in St Helens, UK**
 
-My current work includes a production client website and independently designed applications involving authentication, relational data, validation, server logic, external APIs, error handling, and deployment.
+I build practical web and software projects with Next.js, TypeScript, Node.js, relational databases, and Docker. My recent work covers full-stack web applications, local IoT systems, and AI-assisted development.
 
-## Current Focus
+Before moving to the UK, I spent ten years self-employed, building PHP/MySQL websites, a lightweight client CMS, and an e-commerce platform for small businesses. I am now looking to bring that earlier commercial experience and my current full-stack work into a full-time software role.
 
-- React, TypeScript, and component architecture
-- Next.js App Router and server actions
-- Authentication and record-level ownership
-- Zod validation and typed application boundaries
-- Prisma and PostgreSQL relational data
-- Accessible, responsive interfaces
-- External API and AI integration
+## Featured work
 
-## Selected Projects
+### Grow Node
 
-### Olga Pietrzak — Client Website
+A local-first plant monitoring and control system that connects simulated or physical sensors to a web dashboard through MQTT, backend services, and PostgreSQL. The completed MVP includes live telemetry, plant-profile evaluation, zone management, device health, automatic control decisions, and a one-command Docker setup.
 
-A production website built and delivered for a therapist, adapting a Tailwind Plus foundation to the client’s brand, content, and requirements.
+**Tech:** Next.js, TypeScript, Fastify, Prisma, PostgreSQL, MQTT, Docker Compose, Vitest, ESP32
 
-- Translated client requirements into a responsive Next.js website
-- Structured service content and MDX-based legal pages
-- Implemented server-action contact handling with Resend
-- Added metadata, sitemap, robots configuration, and SEO foundations
-- Managed the project through implementation and production deployment
+[View source](https://github.com/rastislavelias/grow-node)
 
-**Stack:** Next.js, React, TypeScript, Tailwind CSS, MDX, Server Actions, Resend
+### AI Music Lab
 
-[View website](https://olgapietrzak.pl)
+A local asynchronous music-generation application built around ACE-Step 1.5. It manages artist profiles and queued generation jobs, produces FLAC masters and MP3 previews, generates cover artwork, and exports synchronised 1080p lyric videos.
 
-### Mini Resource Library
+I developed the project with OpenAI Codex as an AI coding partner: I defined the scope and constraints, directed the implementation, reviewed changes, tested the system on the target NVIDIA GPU, and resolved integration and runtime issues. The repository is currently private while I complete its public-release review.
 
-An independently designed full-stack Next.js application for organising private learning resources with custom categories, reading statuses, notes, and ratings.
+**Tech:** Next.js, TypeScript, Node.js, Prisma, SQLite, FastAPI, Docker Compose, ACE-Step, Z-Image-Turbo, FFmpeg
 
-- Designed a user-owned relational model for resources and reusable custom categories
-- Used Clerk user IDs to isolate private data without duplicating accounts in a local user table
-- Created Zod schemas for input validation, normalisation, and TypeScript type inference
-- Implemented server actions that authenticate users, verify ownership, perform Prisma mutations, and revalidate affected pages
-- Restricted category deletion while resources still reference it to prevent accidental data loss
-- Kept search, filtering, and pagination deliberately focused rather than introducing unnecessary complexity
+### olgapietrzak.pl
 
-**Stack:** Next.js, React, TypeScript, Tailwind CSS, Clerk, Zod, Prisma, PostgreSQL
+A production website for an independent therapist. The current Next.js and TypeScript version replaced earlier WordPress and React/AWS implementations while preserving the client's content and established domain.
 
-[Live app](https://resources.rastislavelias.com) · [Source code](https://github.com/rastislavelias/mini-resource-library)
+**Tech:** Next.js, TypeScript, Tailwind CSS, MDX, Zod, Resend, Vercel
 
-### AI Photo Description Tool
+[View live website](https://olgapietrzak.pl)
 
-An independently designed Next.js application that converts uploaded images into an AI-generated description and 3–6 relevant tags.
+### MiauMiauMiau
 
-- Designed the complete client-to-server image-processing flow
-- Added browser-side validation and resizing to reduce upload size
-- Implemented independent server validation of the request, file type, size, and image dimensions
-- Added content moderation before description generation
-- Required predictable AI responses using strict JSON Schema
-- Created typed error codes for validation, moderation, provider, and server failures
+A multilingual community-platform prototype with authentication, account management, member and cat profiles, lost-and-found features, media storage, email workflows, and automated text and image moderation.
 
-**Stack:** Next.js, React, TypeScript, Tailwind CSS, OpenAI API, JSON Schema, Canvas API
+**Tech:** Next.js, TypeScript, AWS Amplify Gen 2, CDK, Cognito, AppSync, DynamoDB, Lambda, S3, CloudFront, SES, IAM, OpenAI API
 
-[Live app](https://ai-photo-description.vercel.app) · [Source code](https://github.com/rastislavelias/ai-photo-description)
+## Core technologies
 
-## Links
+- **Current:** JavaScript, TypeScript, React, Next.js, Node.js, Fastify, Prisma, PostgreSQL, SQLite, Docker Compose
+- **AWS project work:** Amplify Gen 2, CDK, Cognito, AppSync, Lambda, API Gateway, DynamoDB, SES, S3, CloudFront, Route 53, IAM
+- **Earlier commercial work:** PHP, MySQL, JavaScript, jQuery, WordPress, custom CMS development
 
-- [Portfolio](https://rastislavelias.com)
-- [LinkedIn](https://www.linkedin.com/in/rastislavelias)
-- [Email](mailto:contact@rastislavelias.com)
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/rastislavelias) · [Email](mailto:contact@rastislavelias.com)
