@@ -20,9 +20,9 @@ A local-first plant monitoring and control system that connects simulated or phy
 
 A local asynchronous music-generation application built around ACE-Step 1.5. It manages artist profiles and queued generation jobs, produces FLAC masters and MP3 previews, generates cover artwork, and exports synchronised 1080p lyric videos.
 
-I developed the project with OpenAI Codex as an AI coding partner: I defined the scope and constraints, directed the implementation, reviewed changes, tested the system on the target NVIDIA GPU, and resolved integration and runtime issues. The repository is currently private while I complete its public-release review.
+I developed the project with OpenAI Codex as an AI coding partner: I defined the scope and constraints, directed the implementation, reviewed changes, tested the system on the target NVIDIA GPU, and resolved integration and runtime issues.
 
-**Tech:** Next.js, TypeScript, Node.js, Prisma, SQLite, FastAPI, Docker Compose, ACE-Step, Z-Image-Turbo, FFmpeg
+**Tech:** Next.js, TypeScript, Node.js, Prisma, SQLite, FastAPI, Docker Compose, ACE-Step, Z-Image-Turbo, FFmpeg\n\n[View source](https://github.com/rastislavelias/ai-music-lab)
 
 ### olgapietrzak.pl
 
